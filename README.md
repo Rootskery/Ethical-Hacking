@@ -1,8 +1,8 @@
-# Ethical Hacking Technical Report
-# Name of Company: Sorr Y. Late 
-# Prepared by: Cyril Christian B. Imperial
-# Date: May 28, 2024
-# Executive Summary:
+<h1> Ethical Hacking Technical Report</h1>
+<h2> Name of Company: Sorr Y. Late </h2>
+<h2> Prepared by: Cyril Christian B. Imperial</h2>
+<h2> Date: May 28, 2024 </h2>
+<h3> Executive Summary:</h3>
 This report presents the technical findings of the ethical hacking assessment conducted for Company Sorr Y. Late. The engagement aimed to assess and enhance the security posture of Company Sorr Y. Late by identifying and addressing vulnerabilities within its organization's web applications, wireless networks, and through social engineering techniques. This proactive approach is crucial for preventing potential security breaches and protecting sensitive customer and company data. This report also provides detailed descriptions of these findings, along with actionable recommendations for remediation.
 
 # Vulnerability Summary:
@@ -38,4 +38,4 @@ This report presents the technical findings of the ethical hacking assessment co
 9.	Update all software applications and operating systems to the latest versions.
 10.	Develop a formal backup and disaster recovery plan to ensure business continuity in case of IT disruptions.
 # Conclusion:
-# Several vulnerabilities in Company Sorr Y. Late network infrastructure, applications, and systems were found by this ethical hacking examination. By implementing the suggested remediation measures to address these vulnerabilities, the organization's overall security posture will be greatly improved, and the danger of cyberattacks and data breaches will be reduced.
+Several vulnerabilities in Company Sorr Y. Late network infrastructure, applications, and systems were found by this ethical hacking examination. By implementing the suggested remediation measures to address these vulnerabilities, the organization's overall security posture will be greatly improved, and the danger of cyberattacks and data breaches will be reduced.
