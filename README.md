@@ -6,9 +6,10 @@
 This report presents the technical findings of the ethical hacking assessment conducted for Company Sorr Y. Late. The engagement aimed to assess and enhance the security posture of Company Sorr Y. Late by identifying and addressing vulnerabilities within its organization's web applications, wireless networks, and through social engineering techniques. This proactive approach is crucial for preventing potential security breaches and protecting sensitive customer and company data. This report also provides detailed descriptions of these findings, along with actionable recommendations for remediation.
 
 <h3> Vulnerability Summary:</h3>
-1.	SQL Injection in Customer Login Portal (CVE-2021-44228) <br>
+<ol>
+<li>SQL Injection in Customer Login Portal (CVE-2021-44228)</li> <br>
 •	Critical: A critical SQL injection vulnerability was found in Sorr Y. Late's customer login webpage. Because of this vulnerability, attackers can run any SQL command and perhaps access the database without authorization, extract confidential information, and alter its contents.
-2.	Remote Code Execution via Unpatched Software (CVE-2021-34527) <br>
+<li>	Remote Code Execution via Unpatched Software (CVE-2021-34527)</li> <br>
 •	Critical: Unpatched software on the application server was discovered to have a high-risk remote code execution vulnerability. Attackers can run arbitrary code with elevated privileges because to this vulnerability.
 3.	Outdated Software (Various CVEs, CVSS: Variable) <br>
 •	High: Several applications and operating systems are outdated and no longer supported, leaving them vulnerable to known exploits.
@@ -26,6 +27,7 @@ This report presents the technical findings of the ethical hacking assessment co
 •	High: Unlocked server rooms and unattended workstations pose a physical security risk.
 10.	Lack of Backup and Disaster Recovery Plan (CVSS: N/A) <br>
 •	High: The absence of a formal backup and disaster recovery plan hinders the organization's ability to recover from data loss or system outages.
+</ol>
 <h3>Recommendations for Remediation:</h3> 
 1.	Implement prepared statements and parameterized queries to mitigate SQL injection risks. Regularly audit and sanitize input data.<br>
 2.	Update all systems and software with the most recent security fixes. Put in place a reliable patch management procedure.<br>
