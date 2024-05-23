@@ -1,10 +1,11 @@
-Ethical Hacking Technical Report
-Name of Company: Sorr Y. Late 
-Prepared by: Cyril Christian B. Imperial
-Date: May 28, 2024
-Executive Summary:
+# Ethical Hacking Technical Report
+# Name of Company: Sorr Y. Late 
+# Prepared by: Cyril Christian B. Imperial
+# Date: May 28, 2024
+# Executive Summary:
 This report presents the technical findings of the ethical hacking assessment conducted for Company Sorr Y. Late. The engagement aimed to assess and enhance the security posture of Company Sorr Y. Late by identifying and addressing vulnerabilities within its organization's web applications, wireless networks, and through social engineering techniques. This proactive approach is crucial for preventing potential security breaches and protecting sensitive customer and company data. This report also provides detailed descriptions of these findings, along with actionable recommendations for remediation.
-Vulnerability Summary:
+
+# Vulnerability Summary:
 1.	SQL Injection in Customer Login Portal (CVE-2021-44228
 •	Critical: A critical SQL injection vulnerability was found in Sorr Y. Late's customer login webpage. Because of this vulnerability, attackers can run any SQL command and perhaps access the database without authorization, extract confidential information, and alter its contents.
 2.	Remote Code Execution via Unpatched Software (CVE-2021-34527)
@@ -25,7 +26,7 @@ Vulnerability Summary:
 •	High: Unlocked server rooms and unattended workstations pose a physical security risk.
 10.	Lack of Backup and Disaster Recovery Plan (CVSS: N/A): 
 •	High: The absence of a formal backup and disaster recovery plan hinders the organization's ability to recover from data loss or system outages.
-Recommendations for Remediation:
+# Recommendations for Remediation:
 1.	Implement prepared statements and parameterized queries to mitigate SQL injection risks. Regularly audit and sanitize input data.
 2.	Update all systems and software with the most recent security fixes. Put in place a reliable patch management procedure.
 3.	Implement multi-factor authentication (MFA) and enforce strict password restrictions, such as minimum complexity requirements and frequent password changes.
@@ -36,5 +37,5 @@ Recommendations for Remediation:
 8.	Implement physical security measures, including access control systems and locked server rooms.
 9.	Update all software applications and operating systems to the latest versions.
 10.	Develop a formal backup and disaster recovery plan to ensure business continuity in case of IT disruptions.
-Conclusion:
-Several vulnerabilities in Company Sorr Y. Late network infrastructure, applications, and systems were found by this ethical hacking examination. By implementing the suggested remediation measures to address these vulnerabilities, the organization's overall security posture will be greatly improved, and the danger of cyberattacks and data breaches will be reduced.
+# Conclusion:
+# Several vulnerabilities in Company Sorr Y. Late network infrastructure, applications, and systems were found by this ethical hacking examination. By implementing the suggested remediation measures to address these vulnerabilities, the organization's overall security posture will be greatly improved, and the danger of cyberattacks and data breaches will be reduced.
