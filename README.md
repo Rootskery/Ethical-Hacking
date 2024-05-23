@@ -7,16 +7,20 @@ This report presents the technical findings of the ethical hacking assessment co
 
 <h3> Vulnerability Summary:</h3>
 <ol>
-<li>SQL Injection in Customer Login Portal (CVE-2021-44228)</li> <br>
-•	Critical: A critical SQL injection vulnerability was found in Sorr Y. Late's customer login webpage. Because of this vulnerability, attackers can run any SQL command and perhaps access the database without authorization, extract confidential information, and alter its contents.
-<li>	Remote Code Execution via Unpatched Software (CVE-2021-34527)</li> <br>
-•	Critical: Unpatched software on the application server was discovered to have a high-risk remote code execution vulnerability. Attackers can run arbitrary code with elevated privileges because to this vulnerability.
-3.	Outdated Software (Various CVEs, CVSS: Variable) <br>
-•	High: Several applications and operating systems are outdated and no longer supported, leaving them vulnerable to known exploits.
-4.	Denial-of-Service (DoS) Vulnerability (CVE-2022-7890, CVSS: 7.2) <br>
-•	High: Due to the application server's vulnerability to DoS attacks, there may be service interruptions and website outages.
-5.	Weak Password Policies (CVSS: 5.3) <br>
-•	High: It was discovered that there were weak password restrictions, which made it possible for brute force assaults to breach administrative accounts.
+<li>SQL Injection in Customer Login Portal (CVE-2021-44228)</li>
+•	Critical: A critical SQL injection vulnerability was found in Sorr Y. Late's customer login webpage. Because of this vulnerability, attackers can run any SQL command and perhaps access the database without authorization, extract confidential information, and alter its contents. <br>
+<li>	Remote Code Execution via Unpatched Software (CVE-2021-34527)</li>
+•	Critical: Unpatched software on the application server was discovered to have a high-risk remote code execution vulnerability. Attackers can run arbitrary code with elevated privileges because to this vulnerability.<br>
+  
+<li>	Outdated Software (Various CVEs, CVSS: Variable)</li> 
+•	High: Several applications and operating systems are outdated and no longer supported, leaving them vulnerable to known exploits.<br>
+  
+<li> Denial-of-Service (DoS) Vulnerability (CVE-2022-7890, CVSS: 7.2) </li>
+•	High: Due to the application server's vulnerability to DoS attacks, there may be service interruptions and website outages.<br>
+
+<li> Weak Password Policies (CVSS: 5.3) </li>
+•	High: It was discovered that there were weak password restrictions, which made it possible for brute force assaults to breach administrative accounts.<br>
+
 6.	Insecure Wireless Network (CVSS: 4.0) <br>
 •	High: The company's Wi-Fi network lacks strong encryption, allowing attackers to intercept sensitive data.
 7.	Security Misconfigurations (CVE-2022-21894) <br>
