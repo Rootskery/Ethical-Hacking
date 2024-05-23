@@ -38,7 +38,7 @@ This report presents the technical findings of the ethical hacking assessment co
 
 </ol>
 <h3>Recommendations for Remediation:</h3> 
-</ol>
+<ol>
 <li>	Implement prepared statements and parameterized queries to mitigate SQL injection risks. Regularly audit and sanitize input data.</li>
 <li>	Update all systems and software with the most recent security fixes. Put in place a reliable patch management procedure.</li>	
 <li>	Implement multi-factor authentication (MFA) and enforce strict password restrictions, such as minimum complexity requirements and frequent password changes.</li>	
@@ -49,5 +49,6 @@ This report presents the technical findings of the ethical hacking assessment co
 <li>	Implement physical security measures, including access control systems and locked server rooms.</li>	
 <li>	Update all software applications and operating systems to the latest versions.</li>	
 <li>	Develop a formal backup and disaster recovery plan to ensure business continuity in case of IT disruptions.</li>	
+</ol>
 <h3> Conclusion:</h3>
 Several vulnerabilities in Company Sorr Y. Late network infrastructure, applications, and systems were found by this ethical hacking examination. By implementing the suggested remediation measures to address these vulnerabilities, the organization's overall security posture will be greatly improved, and the danger of cyberattacks and data breaches will be reduced.
