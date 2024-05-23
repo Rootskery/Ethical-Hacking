@@ -27,15 +27,15 @@ This report presents the technical findings of the ethical hacking assessment co
 10.	Lack of Backup and Disaster Recovery Plan (CVSS: N/A) <br>
 •	High: The absence of a formal backup and disaster recovery plan hinders the organization's ability to recover from data loss or system outages.
 <h3>Recommendations for Remediation:</h3> 
-1.	Implement prepared statements and parameterized queries to mitigate SQL injection risks. Regularly audit and sanitize input data.
-2.	Update all systems and software with the most recent security fixes. Put in place a reliable patch management procedure.
-3.	Implement multi-factor authentication (MFA) and enforce strict password restrictions, such as minimum complexity requirements and frequent password changes.
-4.	Review and update security setups on a regular basis, turn off detailed error messages, and get rid of pointless service banners.
-5.	To prevent XSS attacks, use appropriate output encoding and input validation. Make use of security frameworks and libraries that offer XSS prevention.
-6.	Implement security measures to mitigate DoS attacks.
-7.	Secure the Wi-Fi network with strong WPA2 encryption and change the default password.
-8.	Implement physical security measures, including access control systems and locked server rooms.
-9.	Update all software applications and operating systems to the latest versions.
+1.	Implement prepared statements and parameterized queries to mitigate SQL injection risks. Regularly audit and sanitize input data.<br>
+2.	Update all systems and software with the most recent security fixes. Put in place a reliable patch management procedure.<br>
+3.	Implement multi-factor authentication (MFA) and enforce strict password restrictions, such as minimum complexity requirements and frequent password changes.<br>
+4.	Review and update security setups on a regular basis, turn off detailed error messages, and get rid of pointless service banners.<br>
+5.	To prevent XSS attacks, use appropriate output encoding and input validation. Make use of security frameworks and libraries that offer XSS prevention.<br>
+6.	Implement security measures to mitigate DoS attacks.<br>
+7.	Secure the Wi-Fi network with strong WPA2 encryption and change the default password.<br>
+8.	Implement physical security measures, including access control systems and locked server rooms.<br>
+9.	Update all software applications and operating systems to the latest versions.<br>
 10.	Develop a formal backup and disaster recovery plan to ensure business continuity in case of IT disruptions.
 <h3> Conclusion:</h3>
 Several vulnerabilities in Company Sorr Y. Late network infrastructure, applications, and systems were found by this ethical hacking examination. By implementing the suggested remediation measures to address these vulnerabilities, the organization's overall security posture will be greatly improved, and the danger of cyberattacks and data breaches will be reduced.
